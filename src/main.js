@@ -4,7 +4,6 @@ import router from './router'
 
 import './assets/main.css'
 
-<<<<<<< HEAD
 //import firebase auth service
 import { projectAuth } from './firebase/config'
 
@@ -17,8 +16,3 @@ projectAuth.onAuthStateChanged(() => {
         .mount('#app')
     }
 })
-
-
-=======
-createApp(App).use(router).mount('#app')
->>>>>>> parent of f8806e9 (fix)
