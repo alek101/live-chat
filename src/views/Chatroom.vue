@@ -27,8 +27,6 @@ export default {
         router.push({name: 'Welcome'})
       }
     })
-    
-    
   }
 
 }

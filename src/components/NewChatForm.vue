@@ -34,7 +34,6 @@ export default {
                 if (!error.value) {
                      message.value = ''
                 }
-           
         }
 
         return {message, handleSubmit, error}
