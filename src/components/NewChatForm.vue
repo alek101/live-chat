@@ -30,7 +30,6 @@ export default {
                 createdAt: timestamp()
             }
 
-            console.log(chat)
             await addDoc(chat)
                 if (!error.value) {
                      message.value = ''
